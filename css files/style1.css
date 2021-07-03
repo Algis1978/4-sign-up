@@ -48,3 +48,9 @@
 .politika-salygos > a {
   color: azure;
 }
+.desinysis-stulpelis {
+  display: inline-block;
+  border: beige 2px solid;
+  width: 60%;
+  float: right;
+}
