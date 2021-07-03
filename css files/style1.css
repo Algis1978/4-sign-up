@@ -1,56 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.container {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Fitz_Roy_1.jpg);
-  background-size: 100%, auto;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
 }
 .eilute {
-  border: rgb(128, 0, 96) 4px solid;
-  max-width: 80%;
-  margin-top: 10%;
-  margin-left: 10%;
+  display: inline-block;
+  border: rgba(128, 0, 96, 0.514) 3px solid;
+  width: 80%;
+  margin: 10%;
 }
 .kairysis-stulpelis {
   display: inline-block;
-  border: teal 2px solid;
+  border: teal 3px solid;
   width: 40%;
   margin-top: 5%;
   margin-bottom: 5%;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Fitz_Roy_1.jpg);
-  background-size: 100% auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
-}
-.desinysis-stulpelis {
+.uzsiregistruokite {
   display: inline-block;
-  float: right;
-  border: teal 2px solid;
-  width: 59%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.Uzsiregistruokite {
-  display: inline-block;
-  border: chartreuse 2px solid;
-  width: 70%;
-  margin-left: 5%;
+  border: whitesmoke 2px solid;
+  width: 90%;
   margin-top: 10%;
-  text-align: left;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 28px;
+  margin-left: 5%;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
   color: azure;
-  text-shadow: rgb(21, 3, 102) 2px 2px;
-  word-break: break-all;
+  text-align: left;
+  text-shadow: black 3px 3px;
   hyphens: auto;
   -ms-hyphens: auto;
   -moz-hyphens: auto;
 }
 .politika-salygos {
   display: inline-block;
-  border: chartreuse 2px solid;
-  width: 100%;
-  margin-top: 90%;
+  width: 80%;
+  margin-left: 10%;
+  border: beige 2px solid;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-size: 18px;
+  margin-top: 90%;
   color: azure;
 }
 .politika-salygos > a {
