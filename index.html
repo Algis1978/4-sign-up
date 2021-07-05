@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registracijos lango pavyzdys</title>
     <link rel="stylesheet" href="./css files/style1.css">
+    <link rel="stylesheet" href="./css files/form.css">
 </head>
 <body>
     <Main clas="container">
@@ -17,21 +18,41 @@
         </div>
         <div class="desinysis-stulpelis">
             <div class="button">Mygtukas prieš X</div>
-            <div>xx</div>
-            <div>
+            <div class="lentele">
                 <div>
-                <form-row><label for=""></label>Naudotojo vardas<input type="text"></form-row>
+                    <div class="label">
+                        <form-row><label for=""></label>Naudotojo vardas
+                    </div>
+                    <div class="laukas">
+                        <input type="text"></form-row>
+                    </div>
+                <div>
+                    <div class="label">
+                        <form-row><label for=""></label>El. paštas
+                    </div>
+                </div>
+                    <div class="laukas">
+                        <input type="email"></form-row>
+                    </div>
                 </div>
                 <div>
-                <form-row><label for=""></label>El. paštas<input type="email"></form-row>
+                    <div class="label">
+                        <form-row><label for="password"></label>Sukurkite slaptažodį
+                    </div>
+                    <div class="laukas">
+                        <input type="password"></form-row>
+                    </div>
                 </div>
                 <div>
-                <form-row><label for=""></label>Sukurkite slaptažodį<input type="password"></form-row>
-                </div>
-                <div>
-                <form-row><label for=""></label>Pakartokite slaptažodį<input type="password"></form-row>
+                    <div class="label">
+                        <form-row><label for="repeatpassword"></label>Pakartokite slaptažodį
+                    </div>
+                    <div class="laukas">
+                        <input type="password"></form-row>
+                    </div>
                 </div>
             </div>
+            <div>xx</div>
         </div>
     </Main>
 </body>
