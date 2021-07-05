@@ -2,57 +2,24 @@
 body {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Fitz_Roy_1.jpg);
   background-size: 100%, auto;
+  display: block;
 }
-.eilute {
-  border: rgb(128, 0, 96) 4px solid;
-  max-width: 80%;
+.container{
+  display: inline-block;
+  width: 80%;
+  border: rgb(224, 150, 208) 2px solid;
   margin-top: 10%;
   margin-left: 10%;
 }
 .kairysis-stulpelis {
-  display: inline-block;
-  border: teal 2px solid;
+  border: rgb(224, 150, 208) 2px solid;
   width: 40%;
-  margin-top: 5%;
-  margin-bottom: 5%;
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Fitz_Roy_1.jpg);
   background-size: 100% auto;
 }
 }
 .desinysis-stulpelis {
-  display: inline-block;
+  border: rgb(224, 150, 208) 2px solid;
+  width: 40%;
   float: right;
-  border: teal 2px solid;
-  width: 59%;
-  margin-top: auto;
-  margin-bottom: auto;
-}
-.Uzsiregistruokite {
-  display: inline-block;
-  border: chartreuse 2px solid;
-  width: 70%;
-  margin-left: 5%;
-  margin-top: 10%;
-  text-align: left;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 28px;
-  color: azure;
-  text-shadow: rgb(21, 3, 102) 2px 2px;
-  word-break: break-all;
-  hyphens: auto;
-  -ms-hyphens: auto;
-  -moz-hyphens: auto;
-}
-.politika-salygos {
-  display: inline-block;
-  border: chartreuse 2px solid;
-  width: 100%;
-  margin-top: 90%;
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
-  color: azure;
-}
-.politika-salygos > a {
-  color: azure;
 }

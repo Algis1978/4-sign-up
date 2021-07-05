@@ -1,16 +1,16 @@
 .container {
   display: inline-block;
   width: 800px;
-  background-color: azure;
+  border: 2px solid pink);
 }
 .kairysis-stulpelis {
   width: 40%;
   float: left;
-  color: aquamarine;
+  border: 2px solid pink);
   margin-top: 150px;
 }
 .desinysis-stulpelis {
   width: 60%;
   float: left;
-  color: rgb(173, 226, 208);
+  border: 2px solid pink);
 }
