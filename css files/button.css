@@ -1,1 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+.button {
+  border: rgba(7, 107, 74, 0.603) 2px solid;
+  width: 30%;
+  border-radius: 50px;
+  background-color: rgb(13, 117, 56);
+  font-family: "Source Sans Pro", sans-serif;
+  color: azure;
+  font-size: 22px;
+  padding: 12px;
+}
+.X {
+  display: inline-block;
+  float: right;
+}

@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
 .lentele {
-  margin-left: 15%;
+  margin-left: 10%;
   margin-top: 15%;
 }
 .label {
-  color: rgb(167, 170, 170);
-  font-size: 16px;
+  color: rgb(151, 151, 151);
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: bolder;
   font-family: "Poppins", sans-serif;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 input {
   width: 80%;
@@ -21,15 +21,15 @@ input {
 .pastaba {
   display: block;
   max-width: 80%;
-  font-size: 10px;
+  font-size: 16px;
   text-align: right;
 }
 .des-apacia {
   display: block;
-  padding-top: 15%;
+  padding-top: 13%;
   padding-bottom: 10%;
-  border: purple 1px solid;
-  max-width: 100%;
+  /*border: purple 1px solid;*/
+  max-width: 90%;
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
 }
@@ -39,12 +39,13 @@ input {
 .arba {
   display: inline-block;
   margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 3%;
 }
 .action {
-  border: purple 1px solid;
+  /*border: purple 1px solid;*/
   display: inline-block;
-  font-size: 20px;
+  font-size: 22px;
+  text-shadow: chartreuse 1px 1px;
 }
 .action > a {
   color: rgb(4, 27, 161);
