@@ -50,3 +50,12 @@ input {
 .action > a {
   color: rgb(4, 27, 161);
 }
+.pamirsoteslaptazodi {
+  display: inline-block;
+  margin-left: 10%;
+  margin-top: 16%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 22px;
+}
