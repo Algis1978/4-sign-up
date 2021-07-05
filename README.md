@@ -3,7 +3,7 @@
 # Apie
 
 Namų darbas nr. 4 BIT Javascript mokymuose (pradžios data: 2021 m. birželio 21 d.);<br>
-Publikuota: [Namų darbas nr. 4: „Prisijungimo-langas“](https://algis1978.github.io/Nauja-3-mergaite/)
+Publikuota: [Namų darbas nr. 4: „Prisijungimo-langas“](https://algis1978.github.io/4-sign-up/)
 Palyginimasis dizainas: [Sign-Up](https://cdn.discordapp.com/attachments/850245533838868480/850246368214908970/day1dr.png)
 
 # Mokymų detalės:
