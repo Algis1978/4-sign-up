@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap");
 Main {
   display: block;
   width: 80%;
@@ -11,16 +12,25 @@ Main {
   background-color: aquamarine;
 }
 h1 {
-  margin-left: 10%;
+  margin-left: 5%;
   width: 80%;
   border: purple 1px solid;
   overflow-wrap: break-word;
   hyphens: manual;
+  font-family: "Bona Nova", serif;
+  font-size: 28px;
+  font-weight: bold;
 }
 p {
   margin-left: 10%;
   width: 80%;
   border: purple 1px solid;
+  color: azure;
+  font-size: 16px;
+  text-align: center;
+}
+a {
+  color: azure;
 }
 .desinysis-stulpelis {
   display: inline-block;
