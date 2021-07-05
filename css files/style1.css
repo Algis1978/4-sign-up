@@ -1,4 +1,8 @@
 Main {
+  display: block;
+  width: 80%;
+  margin-top: 10%;
+  margin-left: 10%;
 }
 .kairysis-stulpelis {
   display: inline-block;
@@ -6,11 +10,21 @@ Main {
   float: left;
   background-color: aquamarine;
 }
+h1 {
+  margin-left: 10%;
+  width: 80%;
+  border: purple 1px solid;
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+p {
+  margin-left: 10%;
+  width: 80%;
+  border: purple 1px solid;
+}
 .desinysis-stulpelis {
   display: inline-block;
   width: 60%;
   float: left;
   background-color: blanchedalmond;
-}
-.button {
 }
