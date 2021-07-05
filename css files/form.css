@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 .lentele {
   margin-left: 15%;
+  margin-top: 15%;
 }
 .label {
   color: rgb(167, 170, 170);
@@ -15,4 +16,14 @@ input {
   height: 18px;
   border: none;
   border-bottom: rgb(161, 161, 161) 2px solid;
+}
+.des-apacia {
+  display: block;
+  padding-top: 30%;
+  padding-bottom: 10%;
+  border: purple 1px solid;
+  max-width: 80%;
+  margin-left: 10%;
+  font-size: 16px;
+  text-align: center;
 }
