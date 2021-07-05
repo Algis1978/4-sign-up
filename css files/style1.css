@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap");
+body {
+  object-fit: contain;
+}
 Main {
   display: block;
   width: 80%;
