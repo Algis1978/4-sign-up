@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap");
+body {
+  background-image: url(./images/Kalnai\ blur2.jpg);
+  background-position: top;
+  background-attachment: scroll;
+}
 Main {
   display: block;
   width: 80%;
@@ -9,7 +14,10 @@ Main {
   display: inline-block;
   width: 40%;
   float: left;
-  background-color: rgb(103, 207, 173);
+  background-image: url(./images/Kalnai\ blur.jpg);
+  background-position: top;
+  background-attachment: scroll;
+  background-size: 100% auto;
 }
 h1 {
   margin-left: 5%;
