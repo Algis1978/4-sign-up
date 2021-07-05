@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Bona+Nova:ital@1&display=swap");
 body {
   background-image: url(./images/Kalnai\ blur2.jpg);
-  background-position: top;
+  background-position: center;
   background-attachment: scroll;
+  background-size: cover;
 }
 Main {
   display: block;
@@ -14,23 +15,26 @@ Main {
   display: inline-block;
   width: 40%;
   float: left;
+  margin-top: 3%;
   background-image: url(./images/Kalnai\ blur.jpg);
   background-position: top;
   background-attachment: scroll;
-  background-size: 100% auto;
+  background-size: 100% 120%;
 }
 h1 {
   margin-left: 10%;
   margin-top: 10%;
   width: 80%;
-  border: purple 1px solid;
+  color: aliceblue;
+  border: rgb(255, 255, 255) 1px solid;
+  text-shadow: rgb(0, 0, 0) 2px 2px;
   overflow-wrap: break-word;
   hyphens: manual;
   font-family: "Bona Nova", serif;
   font-size: 36px;
   font-weight: bold;
 }
-p {
+.kapacia {
   margin-left: 10%;
   padding-top: 98%;
   width: 80%;
@@ -38,9 +42,11 @@ p {
   color: azure;
   font-size: 22px;
   text-align: center;
+  text-shadow: black 1px 1px;
 }
-a {
+.nuorodos a {
   color: azure;
+  text-shadow: black 1px 1px;
 }
 .desinysis-stulpelis {
   display: inline-block;
