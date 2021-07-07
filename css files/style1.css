@@ -20,9 +20,11 @@ body {
 
 h1 {
 }
-
+.bottom-text a {
+  color: rgb(255, 255, 255);
+}
 a {
-  color: #fff;
+  color: rgb(185, 57, 57);
 }
 
 .right-column {
@@ -30,4 +32,16 @@ a {
   float: left;
   padding: 60px;
   background-color: #fff;
+}
+form > .form-row {
+}
+form > .form-row > label {
+}
+form > .form-row > input {
+}
+form > .form-row > button {
+}
+form > .form-row > span {
+}
+form > .form-row > a {
 }
