@@ -1,8 +1,21 @@
+form {
+  display: inline-block;
+  width: 100%;
+}
 form > .form-row {
+  display: inline-block;
+  width: 100%;
 }
 form > .form-row > label {
+  display: inline-block;
+  width: 100%;
+  font-size: 100%;
 }
 form > .form-row > input {
+  display: inline-block;
+  width: 100%;
+  font-size: 120%;
+  line-height: 150%;
 }
 form > .form-row > button {
 }
