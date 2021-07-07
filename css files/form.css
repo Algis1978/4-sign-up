@@ -26,6 +26,9 @@ form > .form-row > input {
   border: none;
   border-bottom: slategrey 1px solid;
 }
+form > .form-row > input:focus-within {
+  outline: none;
+}
 form > .form-row > button {
   font-size: 100%;
   text-transform: capitalize;
