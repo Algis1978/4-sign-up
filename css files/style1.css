@@ -1,25 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap");
 body {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Fitz_Roy_1.jpg);
-  background-size: 100%, auto;
-  display: block;
+  background-color: #44b2c8;
 }
-.container{
+
+.container {
   display: inline-block;
-  width: 80%;
-  border: rgb(224, 150, 208) 2px solid;
-  margin-top: 10%;
-  margin-left: 10%;
+  width: 800px;
+  margin-top: 150px;
+  margin-left: calc(50% - 400px);
 }
-.kairysis-stulpelis {
-  border: rgb(224, 150, 208) 2px solid;
+
+.left-column {
   width: 40%;
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/5/53/Fitz_Roy_1.jpg);
-  background-size: 100% auto;
+  float: left;
+  padding: 40px;
+  padding-bottom: 20px;
+  background-color: #3f52b2;
+  color: #fff;
 }
+
+h1 {
 }
-.desinysis-stulpelis {
-  border: rgb(224, 150, 208) 2px solid;
-  width: 40%;
-  float: right;
+
+a {
+  color: #fff;
+}
+
+.right-column {
+  width: 60%;
+  float: left;
+  padding: 60px;
+  background-color: #fff;
 }
