@@ -44,6 +44,26 @@ form > .form-row > button {
   color: white;
 }
 form > .form-row > span {
+  display: inline-block;
+  font-size: 80%;
+  font-weight: bolder;
+  padding-top: 3%;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 form > .form-row > a {
+  display: inline-block;
+  font-size: 100%;
+  font-weight: bolder;
+  padding-top: 2%;
+  text-decoration: none;
+  color: rgb(21, 9, 185);
+  text-shadow: rgb(238, 235, 64) 2px 2px;
+}
+form > .form-row > a:hover {
+  text-decoration: underline;
+}
+form > .form-row > button:hover {
+  cursor: pointer;
+  background: linear-gradient(90deg, rgb(3, 82, 65) 32%, rgb(4, 114, 72) 56%);
 }
