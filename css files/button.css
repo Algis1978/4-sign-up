@@ -3,7 +3,12 @@
   border: rgba(7, 107, 74, 0.603) 2px solid;
   width: 30%;
   border-radius: 50px;
-  background-color: rgb(13, 117, 56);
+  background: rgb(15, 97, 13);
+  background: linear-gradient(
+    90deg,
+    rgba(15, 97, 13, 1) 0%,
+    rgba(34, 134, 35, 0.9752275910364145) 100%
+  );
   font-family: "Source Sans Pro", sans-serif;
   color: azure;
   font-size: 22px;
@@ -12,4 +17,8 @@
 .X {
   display: inline-block;
   float: right;
+}
+.button:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
