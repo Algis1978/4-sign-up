@@ -15,10 +15,15 @@ body {
   padding: 40px;
   padding-bottom: 20px;
   background-color: #3f52b2;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/3e/20180819_ReuttenerSeilbahn_vorZugspitze_blau_DSC00935_PtrQs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: #fff;
 }
 
 h1 {
+  text-shadow: rgb(4, 4, 85) 2px 2px;
 }
 .bottom-text a {
   color: rgb(255, 255, 255);
@@ -32,4 +37,7 @@ a {
   float: left;
   padding: 60px;
   background-color: #fff;
+}
+::placeholder {
+  color: rgb(90, 128, 115);
 }
