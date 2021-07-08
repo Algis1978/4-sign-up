@@ -37,7 +37,18 @@ a {
   float: left;
   padding: 60px;
   background-color: #fff;
+  position: relative;
 }
 ::placeholder {
   color: rgb(90, 128, 115);
+}
+.close {
+  /* background-color: burlywood;*/
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  line-height: 60px;
 }
